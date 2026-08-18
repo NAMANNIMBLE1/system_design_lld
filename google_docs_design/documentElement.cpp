@@ -178,10 +178,10 @@ int main() {
     DocumentEditor editor(&document, &storage2);
 
     // Add different elements
-    editor.addText("Hello, this is my document.");
+    editor.addText("Hello, my name is nex.");
     editor.addNewLine();
 
-    editor.addText("This is the second line.");
+    editor.addText("This is the second line of the lld.");
     editor.addNewLine();
 
     editor.addTabSpace();
