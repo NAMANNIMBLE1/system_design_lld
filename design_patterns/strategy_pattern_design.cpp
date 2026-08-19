@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 //****************************************** abstract classes *************************************** */
 
 class WalkableRobot{
@@ -170,7 +169,7 @@ int main(){
     worker->projection();
 
     cout << endl;
-    
+
     Robot* jett_robot = new jettrobot();
 
     jett_robot->walk();
